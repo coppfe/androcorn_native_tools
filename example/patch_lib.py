@@ -4,7 +4,7 @@ from androcorn_native_tools.library.patcher import ELFPatcher
 from androidemu.internal.elf_reader import ELFReader
 from androidemu.const.emu_const import ARCH_ARM64, ARCH_ARM32
 
-reader = ELFReader(r"C:\Users\Kirill\Desktop\androidemu\vfs\system\lib64\libc.so", demangle=False)
+reader = ELFReader(r"path", demangle=False)
 scanner = ELFScanner(reader, ARCH_ARM64)
 patcher = ELFPatcher(reader, ARCH_ARM64)
 
