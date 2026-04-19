@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "androcorn_native_tools"
+version = "1.0.0"
+dependencies = [
+    "capstone",
+    "keystone-engine",
+]
+
+[tool.setuptools.packages.find]
+include = ["androcorn_native_tools*"]
