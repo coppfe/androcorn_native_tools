@@ -6,6 +6,8 @@ You can find:
 
 * Library Patcher
 * Library Scanner
+* LogCat Parser
+* Androcorn Debug Tools
 
 And examples of usage.
 
